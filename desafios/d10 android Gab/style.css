@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*
+#c5ebd6 
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    margin: 0px;
+    background-color:#c5ebd6 ;
+    margin: 0px;
+}
+
+header{
+    padding: 30px 0px 0px 0px;
+    margin: 0px;
+    background-color: #1a5c37;
+}
+#cabeçário{
+    
+    margin-bottom: 0px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+
+.cabeçário{
+    color: white;
+    text-align: justify;
+    text-align: center;
+    padding:20px 0px 2px 0px;
+}
+
+nav{
+    margin-left: 10px
+}
+.navegaçao{
+    
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    background-color: #1a5c37;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navegaçao:hover{
+     background-color: #1d4d32;
+     border-radius: 10px;  
+     
+     
+}
+main{
+   background-color:white;
+   height: auto;
+   width: 500px;
+   padding: 0px 170px 170px 170px; 
+   margin: auto;
+}
+#h1art1{
+    margin: 0px;
+    padding-top: 30px;
+    font-family: "Android";
+    font-size: 25px;
+    color: #1f603c;
+}
+ h2{
+    color:#1f603c ;
+    font-family:"Android" ;
+    font-size: 22px;
+    background-image: linear-gradient(to left, #bee6d000,#bee6d073,#bee6d0a1,#bee6d0);
+ }
+p{
+    color:black;
+    text-align: justify;
+    
+}
+#fotos{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+} 
+
+.links> a{
+    background-color:#8eddb7 ;
+    color: #1f603c;
+    border: 1px solid #8eddb7;
+}
+.links:hover{
+    text-decoration: underline;
+}
+
+#cabeçario-footer {
+    background-color: #2fa866;
+    border: 10px;
+    padding-right: 300px;
+    margin-top:20px ;
+    height: auto;
+     }
+footer{
+    background-color: #C5EBD6;
+}
+
+
+
+
