@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.p-3{
+    background-color:#c2c5c9 ;
+    max-width: 992;
+    padding: 20px;
+
+}
+
+@media (min-width: 992px) {
+    .me-lg-3 {
+        margin-right: 20rem !important;
+    }
+}
+
+
+main{
+    background-image: url('imagens/moça\ propaganda.jpg');
+    background-size: contain;
+    height: 200vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: left top;
+   
+}
+
+h1{
+    font-family: "Funnel Sans", sans-serif;
+    color: snow;
+    margin-left: 60px;
+    text-align: justify;
+    font-style: italic;
+    position: absolute;
+
+    top: 200px;
+    
+}
+
+h2{
+    color: white;
+    font-family: "Funnel Sans", sans-serif;
+    margin-left: 60px;
+    font-size: 1.3em;
+    font-style: italic;
+    position: absolute;
+    top: 300px;
+
+}
+    
