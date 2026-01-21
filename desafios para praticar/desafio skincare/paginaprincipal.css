@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .p-3{
-    background-color:#c2c5c9 ;
+    background-color:#ceac91b6 ;
     max-width: 992;
     padding: 20px;
 
@@ -37,7 +37,7 @@ h1{
     font-style: italic;
     position: absolute;
 
-    top: 200px;
+    top: 230px;
     
 }
 
@@ -48,7 +48,7 @@ h2{
     font-size: 1.3em;
     font-style: italic;
     position: absolute;
-    top: 300px;
+    top: 330px;
 
 }
     
