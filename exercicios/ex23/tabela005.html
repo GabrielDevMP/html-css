@@ -11,15 +11,35 @@
         table{
             border-collapse: collapse;
         }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+        }
         td,th{
             border: 1px solid black;
             padding: 10px;
         }
+
+        .cnome{
+            background-color: chartreuse;
+        }
+        .csexo,col.cidade{
+            background-color: yellow;
+        }
+    
+      
     </style>
 </head>
 <body>
     <h1>Exercicio de tabelas</h1>
     <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade" span="2">
+            <col class="cprof">
+        </colgroup>
 
         <caption>cadastro</caption> 
 
