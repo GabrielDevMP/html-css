@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="cadastro.php">
+        <p>
+            <label for="ies">estado</label>
+            <select name="estado" id="ies">
+
+                
+                 <optgroup label="Reagião do Sudeste" >
+                     <option value="MG" >Minas Gerais</option>
+                     <option value="RJ" >Rio de janeiro</option>
+                     <option value="SP">São Paulo</option>
+                 </optgroup>
+
+                 <optgroup label="Reagião Nordeste">
+                     <option value="MA">Maranhão</option>
+                     <option value="PE">Pernambuco</option>
+                     <option value="RN">Rio Grande do Norte</option>
+                 </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="Prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option >administrador</option>
+                <option >contabilista</option>
+                <option >desenvolvedor</option>
+                <option >professor</option>
+
+            </datalist>
+        </p>
+
+
+
+
+        <p>
+        <label for="ims">mensagem</label><br>
+        <textarea name="ms" id="ims" cols="30" rows="10"></textarea>
+
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+
+    </form>
+</body>
+</html>
