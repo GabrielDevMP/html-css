@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/* todas as demais Mídias */
+
+/*Pesquisasr sobre Device Breakpoints*/
+
+
+
+/*impressora */
+@media print { 
+   body{
+    background-image: url(../imagens/back-print.jpg);/*descessário  */
+    font-family: 'Courier New', Courier, monospace;
+   
+   }
+
+
+   main{
+
+    border: 2px solid black;
+   }
+   main::after{
+    content: 'essa impressão foi feita através do site www;cursoemvideo.com';
+    text-decoration: overline;
+   }
+
+   main h1{
+    text-shadow: none;
+    color: black;
+   }
+
+   #phone,#tablet,#pc,#tv{
+    display: none;
+    }
+    #print{
+        display: block;
+    }
+}
+
+
+
+/*tablet*/
+@media screen  and  (min-width:768px) and (max-width:992px) { 
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+
+
+    }
+
+    #phone,#print,#pc,#tv{
+        display: none;
+        }
+        #tablet{
+            display: block;
+        }
+}
+
+
+
+/*Desktop*/
+@media screen  and (min-width:992px) and (max-width:1200px) { 
+        body{
+            background-image: url(../imagens/back-pc.jpg);
+        }
+        #tablet,#print,#tv,#phone{
+            display: none;
+            }
+            #pc{
+                display: block;
+            }
+}
+
+
+
+
+/*Grandes teslas*/
+@media screen  and (min-width:1200px)  { 
+    main{
+        width: 700px;
+
+    }
+
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    #tablet,#print,#pc,#phone{
+        display: none;
+        }
+        #tv{
+            display: block;
+        }
+}
